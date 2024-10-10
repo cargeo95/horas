@@ -4,6 +4,7 @@ from dash import dash_table, dcc, html, Input, Output, State
 import pandas as pd
 
 app = dash.Dash(__name__)
+server = app.server
 
 # Example data for the hours table
 data = {
