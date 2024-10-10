@@ -3,7 +3,7 @@ import dash_bootstrap_components as dbc
 from dash import dash_table, dcc, html, Input, Output, State
 import pandas as pd
 
-app = dash.Dash(__name__)
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 # Example data for the hours table
