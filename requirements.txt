@@ -4,3 +4,4 @@ dash_bootstrap_components
 plotly
 pymongo==3.10
 dnspython
+pandas
